@@ -26,7 +26,7 @@ public class LessonsGetterTest {
                                 "Friday", List.of()),
                         Set.of()),
 
-                Arguments.of("TimetableWithoutLessons",
+                Arguments.of("TimetableWithLessons",
                         Map.of("Monday", List.of("English", "Mathematics", "Chemistry"),
                                 "Tuesday", List.of("Biology", "Informatics"),
                                 "Wednesday", List.of("Geography", "Astronomy", "English"),

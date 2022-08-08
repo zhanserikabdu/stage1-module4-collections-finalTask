@@ -3,7 +3,7 @@
 ## 1. Lessons Getter
 
 Implement the program which gets timetable and returns `set` of all lessons without duplicates. Timetable is
-a `Map<String, List<String, String>>`, where the `key` - the day of the week and the `value` - `List<String> `of lessons
+a `Map<String, List<String>>`, where the `key` - the day of the week and the `value` - `List<String> `of lessons
 for that day.
 
 ```
@@ -65,7 +65,7 @@ ten - 10
 
 ## 3. Developer Project Finder
 
-Implement the program which gets `Map<String, List<String, String>` of projects and its developers and the required
+Implement the program which gets `Map<String, List<String>>` of projects and its developers and the required
 developer as parameters and returns a `List<String>` of projects for requested developer in descending order of project
 name length. If the names of the projects are of the same length, then sort alphabetically in reverse order.
 
